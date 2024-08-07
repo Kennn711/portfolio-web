@@ -1,0 +1,195 @@
+.navbar-brand {
+  position: relative;
+  display: inline-block;
+  transition: color 0.3s ease; /* Transisi untuk warna teks (jika diperlukan) */
+}
+
+.navbar-brand::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 10px; /* Sesuaikan jarak garis bawah dari teks */
+  left: 0;
+  background-color: white; /* Warna underscore */
+  transition: width 0.3s ease;
+}
+
+.navbar-brand:hover::after {
+  width: 100%;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.8);
+  position: relative;
+  display: inline-block;
+  transition: color 0.3s ease; /* Transisi untuk warna teks (jika diperlukan) */
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 5px; /* Sesuaikan jarak garis bawah dari teks */
+  left: 0;
+  background-color: white; /* Warna underscore */
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.active {
+  color: white;
+  font-weight: bolder;
+}
+
+.jumbotron {
+  padding-top: 10rem;
+  background-color: #caf4ff;
+}
+
+#albums {
+  background-color: #caf4ff;
+}
+
+.nav-link {
+  position: relative;
+  display: inline-block;
+  transition: color 0.3s ease; /* Transisi untuk warna teks (jika diperlukan) */
+}
+
+.img-link {
+  position: relative;
+  display: inline-block;
+  color: #0b2447; /* Warna teks */
+  text-decoration: none; /* Menghilangkan garis bawah default */
+  transition: color 0.3s ease;
+}
+
+.img-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px; /* Sesuaikan jarak garis bawah dari teks */
+  left: 0;
+  background-color: black; /* Warna garis bawah */
+  transition: width 0.3s ease;
+}
+
+.img-link:hover::after {
+  width: 100%;
+}
+
+.img-link:hover {
+  color: black; /* Jika Anda ingin mengubah warna teks saat hover */
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.sosmed {
+  font-size: 35px;
+}
+
+/* Bagian Github */
+.sos-github {
+  display: inline-flex;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  color: white;
+  border: 2px solid white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.sos-github:hover {
+  background-color: white;
+  color: #333;
+  transition: color 0.8s ease-in-out;
+}
+/* Bagian Github End */
+
+/* Bagian Facebook */
+.sos-fb {
+  display: inline-flex;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  color: white;
+  border: 2px solid white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.sos-fb:hover {
+  background-color: white;
+  color: #4267b2;
+  transition: color 0.8s ease-in-out;
+}
+/* Bagian Facebook End */
+
+/* Bagian Youtube */
+.sos-yt {
+  display: inline-flex;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  color: white;
+  border: 2px solid white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.sos-yt:hover {
+  background-color: white;
+  color: #ff0000;
+  transition: color 0.8s ease-in-out;
+}
+/* Bagian Youtube End */
+
+/* Bagian Spotify*/
+.sos-spo {
+  display: inline-flex;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  color: white;
+  border: 2px solid white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.sos-spo:hover {
+  background-color: white;
+  color: #1db954;
+  transition: color 0.8s ease-in-out;
+}
+/* Bagian Spotify End */
+
+.footer_link {
+  position: relative;
+  display: inline-block;
+  transition: color 0.3s ease; /* Transisi untuk warna teks (jika diperlukan) */
+  text-decoration: none;
+}
+
+.footer_link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 1px; /* Sesuaikan jarak garis bawah dari teks */
+  left: 0;
+  background-color: white; /* Warna underscore */
+  transition: width 0.3s ease;
+}
+
+.footer_link:hover::after {
+  width: 100%;
+}
